@@ -1,0 +1,25 @@
+{
+  "name": "webend-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "init": "cp ./.env.default ./.env",
+    "lint": "eslint ./src/",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "dotenv": "^4.0.0",
+    "graph.ql": "^2.0.2",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-eser": "^2.0.7",
+    "eslint-plugin-import": "^2.7.0",
+    "jest": "^21.0.2"
+  }
+}

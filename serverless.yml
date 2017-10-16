@@ -1,0 +1,20 @@
+service: webend-demo
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  region: eu-west-1
+  stage: dev
+
+functions:
+  index:
+    handler: 'src/index.default'
+    events:
+      - http:
+          path: ''
+          method: GET
+          cors: true
+      - http:
+          path: ''
+          method: POST
+          cors: true
