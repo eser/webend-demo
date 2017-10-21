@@ -56,10 +56,10 @@ test('getFilmList GET response test', () => {
         const body = JSON.parse(response.body);
 
         expect(body.data.film).toBeDefined();
-        expect(body.data.film.length).toEqual(4);
-        expect(body.data.film[3]._id).toEqual('59e3fbba7a8bac7df3a463e6');
-        expect(body.data.film[3].title).toEqual('Captain America: The Winter Soldier');
-        expect(body.data.film[3].year).toEqual(2014);
+        expect(body.data.film.length).toEqual(5);
+        expect(body.data.film[4]._id).toEqual('59e3fbba7a8bac7df3a463e6');
+        expect(body.data.film[4].title).toEqual('Captain America: The Winter Soldier');
+        expect(body.data.film[4].year).toEqual(2014);
     });
 
     return handler;
@@ -122,10 +122,10 @@ test('getFilmList POST response test', () => {
         const body = JSON.parse(response.body);
 
         expect(body.data.film).toBeDefined();
-        expect(body.data.film.length).toEqual(4);
-        expect(body.data.film[3]._id).toEqual('59e3fbba7a8bac7df3a463e6');
-        expect(body.data.film[3].title).toEqual('Captain America: The Winter Soldier');
-        expect(body.data.film[3].year).toEqual(2014);
+        expect(body.data.film.length).toEqual(5);
+        expect(body.data.film[4]._id).toEqual('59e3fbba7a8bac7df3a463e6');
+        expect(body.data.film[4].title).toEqual('Captain America: The Winter Soldier');
+        expect(body.data.film[4].year).toEqual(2014);
     });
 
     return handler;

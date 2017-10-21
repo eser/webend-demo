@@ -129,3 +129,17 @@ Deploy ettiğiniz bir projeyi komple geri çekmek için aşağıdaki komutu kull
 ```sh
 $ sls remove
 ```
+
+## Testler ve Lint-Check
+
+Testler için Jest kullanılmakta:
+
+```sh
+$ npm test
+```
+
+Lint için ise:
+
+```sh
+$ npm run lint
+```

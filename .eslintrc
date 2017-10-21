@@ -3,11 +3,13 @@
         "eser"
     ],
     "env": {
-        "node": true
+        "node": true,
+        "jest": true
     },
     "parserOptions": {
         "sourceType": "module"
     },
     "rules": {
+        "no-underscore-dangle": "off"
     }
 }
